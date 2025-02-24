@@ -15,7 +15,7 @@ function App() {
 
             if (route.layout) {
               Layout = route.layout;
-            } else if (route.layout === null) {
+            } else {
               Layout = Fragment;
             }
             return (
